@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/task/task",
+    "pages/detail/detail",
+    "pages/createTask/createTask",
+    "pages/sweetpotato/sweetpotato",
+    "pages/me/me",
+    "pages/welcome/welcome",
+    "pages/completedTasks/completedTasks",
+    "pages/consumedItems/consumedItems",
+    "pages/consumeSweetpotato/consumeSweetpotato",
+    "pages/about/about",
+    "pages/cleared/cleared"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF9746",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbarTaskSelected.png",
+        "iconPath": "images/tabbarTask.png",
+        "pagePath": "pages/task/task",
+        "text": "任务"
+      },
+      {
+        "selectedIconPath": "images/tabbarSweetpotatoSelected.png",
+        "iconPath": "images/tabbarSweetpotato.png",
+        "pagePath": "pages/sweetpotato/sweetpotato",
+        "text": "地瓜烧"
+      },
+      {
+        "selectedIconPath": "images/tabbarMeSelected.png",
+        "iconPath": "images/tabbarMe.png",
+        "pagePath": "pages/me/me",
+        "text": "我"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

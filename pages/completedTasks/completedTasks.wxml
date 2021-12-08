@@ -1,0 +1,24 @@
+<!--pages/completedTasks/completedTasks.wxml-->
+<!-- <text>pages/completedTasks/completedTasks.wxml</text>
+<view class="cardContainer">
+  <view wx:for = '{{completedTasks}}'>
+    <view class="card" data-item='{{item.index}}'>{{item.title}}</view>
+  </view>
+</view> -->
+<view class="pageContainer">
+  <view class="titleContainer">
+    <view class="pageTitle">任务完成记录</view>
+  </view>
+  <view class="cardContainer">
+    <block wx:for = "{{completedTasks}}">
+      <view class="card" bindtap="click" data-item="{{item.index}}">
+        <view class="cardTitle">{{item.title}}</view>
+        <view class="cardTime">{{item.time}}</view>
+        <view class="cardSweetpotato">
+          {{item.value}}
+          <image src="../../images/sweetpotatoIconPurple.png" style="width:30px;height:21px;position:relative;left:-4px;top:4px;" mode="aspectFit"></image>      
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

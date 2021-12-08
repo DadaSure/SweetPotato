@@ -1,0 +1,27 @@
+<!--pages/test/test.wxml-->
+<!-- <text>pages/test/test.wxml</text> -->
+<!-- <view class="cardContainer">
+  <view wx:for = '{{items}}'>
+    <view class="card" bindtap="click" data-item='{{item.index}}'>{{item.title}}</view>
+  </view>
+  <button bindtap="navigateToCreateTask">新建任务</button>
+</view> -->
+<view class="pageContainer">
+  <view class="titleContainer">
+    <view class="pageTitle">任务</view>
+    <image src="../../images/plusIcon2x.png" style="width:40px;height:40px" mode="aspectFit" bindtap="navigateToCreateTask"></image>
+  </view>
+  <view class="cardContainer">
+    <block wx:for = "{{items}}">
+      <view class="card" bindtap="click" data-item="{{item.index}}">
+        <view class="cardTitle">{{item.title}}</view>
+        <view class="cardTime">{{item.time}}</view>
+        <view class="cardSweetpotato">
+          {{item.value}}
+          <image src="../../images/sweetpotatoIconPurple.png" style="width:30px;height:21px;position:relative;left:-4px;top:4px;" mode="aspectFit"></image>
+          <!-- 🍠 -->
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

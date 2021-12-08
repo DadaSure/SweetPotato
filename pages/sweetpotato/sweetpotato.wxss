@@ -1,0 +1,83 @@
+/* pages/sweetpotato/sweetpotato.wxss */
+.pageContainer{
+  /* width: auto; */
+}
+.titleContainer{
+  margin-top: 4px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  vertical-align: center;
+}
+.pageTitle{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: #FF9746;
+  width: 100%;
+  position: relative;
+  top: -3px;
+}
+.contentContainer{
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  align-content: flex-start;
+  width: auto;
+  flex-wrap: wrap;
+}
+.sweetpotatoIcon{
+  margin-top: 72px;
+  width: 100%;
+}
+.sweetpotatoValue{
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3px;
+}
+
+
+.Button{
+  margin-top: 130px;
+  width: 240px;
+  color: #FFFFFF;
+  background-color:rgba(255, 151, 70, 0.8);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+
+/* .cardContainer{
+  align-items: center;
+  width: 90%;
+}
+
+.card{
+  background-color: #FF9746;
+  width: 90%;
+  height: 80px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card .title{
+  color: #ffffff;
+  text-align: left;
+  width: 90%;
+} */

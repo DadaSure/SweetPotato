@@ -1,0 +1,42 @@
+<!--pages/detail/detail.wxml-->
+<!-- <text>pages/detail/detail.wxml</text> -->
+<!-- <view>{{cardID}}</view> -->
+<!-- <view>{{title}}</view>
+
+<view>{{time}}</view>
+<view>{{value}}</view>
+<button bindtap="completeTask">完成任务</button> -->
+<!-- <button bindtap="deleteTask">放弃任务</button> -->
+
+<view class="pageContainer">
+  <view class="titleContainer">
+    <view class="pageTitle">任务详情</view>
+  </view>
+  <view class="contentContainer">
+    <!-- <form bindsubmit="submit"> -->
+      <view class="content">
+        <view class="contentTitle">标题</view>
+        <view class="contentDetail">{{title}}</view>
+      </view>  
+
+      <view class="content">
+        <view class="contentTitle">描述</view>
+        <view class="contentDetail">{{description}}</view>
+      </view> 
+
+      <view class="content">
+        <view class="contentTitle">时间</view>
+        <view class="contentDetail">{{time}}</view>
+      </view> 
+
+      <view class="content">
+        <view class="contentTitle">地瓜烧数量</view>
+        <view class="contentDetail">{{value}}</view>
+      </view> 
+      <button bindtap="completeTask" class="Button">完成任务</button>
+
+    <!-- </form> -->
+  </view>
+
+</view>
+

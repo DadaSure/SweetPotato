@@ -1,0 +1,20 @@
+<!--pages/welcome/welcome.wxml-->
+<!-- <text>pages/welcome/welcome.wxml</text>
+<view>欢迎</view> -->
+<!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="bindViewTap">登陆</button> -->
+<!-- <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">登陆</button> -->
+<view class="pageContainer">
+  <view class="titleContainer">
+    <view class="pageTitle">欢迎</view>
+  </view>
+  <view class="contentContainer">
+    <view class="text">这是一款助你养成<text style="font-weight:bold">良好习惯</text>的小程序</view>
+    <view class="text">完成每件令自己感到<text style="font-weight:bold">煎熬困难</text>的事情来</view>
+    <view class="text">积攒自己的<text style="font-weight:bold">地瓜烧</text><image src="../../images/sweetpotatoIconSmall.png" style="width:30px;height:21px;position:relative;left:2px;top:4px;" mode="aspectFit"></image>用于将来犒劳自己</view>
+    <view class="text">当然，最重要的还是你自己的<text style="font-weight:bold">自制力</text></view>
+    <view class="text">点击下方登陆按钮以<text style="font-weight:bold">开始使用</text></view>  
+    <button class="Button" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登陆</button>
+  </view>
+
+</view>
+

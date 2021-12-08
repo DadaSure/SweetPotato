@@ -1,0 +1,16 @@
+<!--pages/about/about.wxml-->
+<!-- <text>pages/about/about.wxml</text> -->
+<view class="pageContainer">
+  <view class="titleContainer">
+    <view class="pageTitle">关于</view>
+  </view>
+  <view class="contentContainer">
+    <image class="avatar" src="../../images/sweetpotatoIcon.png" mode="aspectFit" style="height:96px"></image>
+    <view class="title">赏我半斤地瓜烧</view>
+    <view class="text">v1.0</view>
+    <view class="text">作者 @DadaSure</view>
+    <view class="text">邮箱 2674771472@qq.com</view>      
+    <button class="ButtonRed"  bindtap="clearStorage">清除数据</button>
+
+  </view>
+</view>

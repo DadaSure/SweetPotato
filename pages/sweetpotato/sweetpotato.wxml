@@ -1,0 +1,23 @@
+<!--pages/sweetpotato/sweetpotato.wxml-->
+<!-- <text>pages/sweetpotato/sweetpotato.wxml</text>
+<view>你有{{sweetpotatoValue}}个地瓜烧</view> -->
+
+<!-- <view class="cardContainer">
+  <view wx:for = '{{items}}'>
+    <view class="card" bindtap="toConsumeItemDetail" data-item='{{item.index}}'>{{item.title}}</view>
+  </view>
+  <button bindtap="navigateToCreateConsumeItem">新建消耗项目</button>
+</view> -->
+<view class="pageContainer">
+  <view class="titleContainer">
+    <view class="pageTitle">地瓜烧</view>
+  </view>
+  <view class="contentContainer">
+    <image src="../../images/sweetpotatoIcon.png" style="height:160px" mode="aspectFit" class="sweetpotatoIcon"></image>
+    <view class="sweetpotatoValue">{{sweetpotatoValue}}</view>
+    <button bindtap="navigateToConsumeSweetpotato" class="Button">使用地瓜烧</button>   
+  </view>
+</view>
+
+
+

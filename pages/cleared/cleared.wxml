@@ -1,0 +1,8 @@
+<!--pages/cleared/cleared.wxml-->
+<!-- <text>pages/cleared/cleared.wxml</text> -->
+<view class="pageContainer">
+  <view class="contentContainer">
+    <icon type="success" class="avatar" size="160px" style="width:100%"></icon>
+    <view class="text">数据清除成功，请重新启动微信与小程序</view>
+  </view>
+</view>

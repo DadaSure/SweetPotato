@@ -1,0 +1,33 @@
+<!--pages/createTask/createTask.wxml-->
+<!-- <text>pages/createTask/createTask.wxml</text> -->
+<view class="pageContainer">
+  <view class="titleContainer">
+    <view class="pageTitle">新建任务</view>
+  </view>
+  <view class="contentContainer">
+    <form bindsubmit="submit" class="Form">
+      <view class="content">
+        <view class="contentTitle">标题</view>
+        <input name="title" class="contentInput"></input>
+      </view>  
+
+      <view class="content">
+        <view class="contentTitle">描述</view>
+        <input name="description" class="contentInput"></input>
+      </view> 
+
+      <view class="content">
+        <view class="contentTitle">时间</view>
+        <input name="time" class="contentInput"></input>
+      </view> 
+
+      <view class="content">
+        <view class="contentTitle">地瓜烧数量</view>
+        <input name="value" class="contentInput"></input>
+      </view> 
+      <button form-type="submit" class="createButton">创建</button>
+
+    </form>
+  </view>
+
+</view>
